@@ -34,8 +34,6 @@ const base_config = process.env.IS_SUB_PATH ? sub_base_config : root_base_config
 export default defineConfig({
   ...base_config,
   title: 'NLP in action',
-  // favicon: '/img/favicon.png',
-  // logo: '/img/logo.png',
   outputPath: 'docs-dist',
   mode: 'site',
   // more config: https://d.umijs.org/config
@@ -43,6 +41,10 @@ export default defineConfig({
   dynamicImport: {
     loading: '@/Loading',
   },
+  ssr: {
+    devServerRender: false
+  },
+  exportStatic: {},
   hash: true,
   extraBabelPlugins: [
     [
@@ -54,10 +56,4 @@ export default defineConfig({
       },
     ],
   ],
-  // links: [
-  //   {
-  //     rel: 'stylesheet',
-  //     href: '/css/style.css',
-  //   },
-  // ],
 });
