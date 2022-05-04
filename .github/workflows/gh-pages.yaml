@@ -25,4 +25,4 @@ jobs:
           github_token: ${{ secrets.ACCESS_TOKEN }}
           commit_message: ${{ github.event.head_commit.message }}
           publish_dir: ./docs-dist
-          publish_branch: gh-pages
+          publish_branch: pages
