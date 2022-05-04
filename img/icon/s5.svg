@@ -1,0 +1,41 @@
+<svg width="75px" height="78px" viewBox="0 0 75 78" version="1.1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient x1="79.3548141%" y1="76.6392297%" x2="33.8916291%" y2="43.6362487%" id="linearGradient-er5zzm5rqq-1">
+      <stop stop-color="#FAFCFF" stop-opacity="0.8" offset="0%"></stop>
+      <stop stop-color="#F1F6FF" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient x1="42.4660225%" y1="20.1593216%" x2="65.4672012%" y2="92.0081786%" id="linearGradient-er5zzm5rqq-2">
+      <stop stop-color="#55F1FE" offset="0%"></stop>
+      <stop stop-color="#3878FF" offset="100%"></stop>
+    </linearGradient>
+    <filter x="-104.3%" y="-82.8%" width="308.7%" height="265.5%" filterUnits="objectBoundingBox" id="filter-er5zzm5rqq-3">
+      <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+    </filter>
+    <path d="M34.8741768,27.9788267 C35.9787463,27.9788267 36.8741768,28.8742572 36.8741768,29.9788267 L36.8741768,42.1921037 C36.8741768,43.2966732 35.9787463,44.1921037 34.8741768,44.1921037 L34.7992531,44.1921037 C33.6946836,44.1921037 32.7992531,43.2966732 32.7992531,42.1921037 L32.7988997,32.0534836 L22.6608997,32.0537503 C21.5563302,32.0537503 20.6608997,31.1583198 20.6608997,30.0537503 L20.6608997,29.9788267 C20.6608997,28.8742572 21.5563302,27.9788267 22.6608997,27.9788267 L34.8741768,27.9788267 Z M50.7003348,24.03027 L50.7533138,24.083249 C51.5343624,24.8642976 51.5343624,26.1306276 50.7533138,26.9116762 L45.2083211,32.4566689 C44.4272725,33.2377175 43.1609426,33.2377175 42.379894,32.4566689 L42.326915,32.4036899 C41.5458664,31.6226413 41.5458664,30.3563113 42.326915,29.5752627 L47.8719077,24.03027 C48.6529563,23.2492214 49.9192862,23.2492214 50.7003348,24.03027 Z" id="path-er5zzm5rqq-4"></path>
+    <filter x="-22.8%" y="-24.1%" width="145.6%" height="167.5%" filterUnits="objectBoundingBox" id="filter-er5zzm5rqq-5">
+      <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0.400629428   0 0 0 0 0.722619396   0 0 0 0 0.784689751  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+  </defs>
+  <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="AntD-Mobile-Home-修改稿" transform="translate(-827.000000, -658.000000)">
+      <g id="编组" transform="translate(144.000000, 647.000000)">
+        <g id="Group-27" transform="translate(626.000000, 21.999933)">
+          <g id="编组-12" transform="translate(68.500000, 0.000000)">
+            <path d="M4,0 L27.7583642,0 C28.860867,1.57383036e-15 29.9144842,0.455051631 30.6703416,1.25766744 L34.9119774,5.76169716 C35.6108287,6.50378047 36,7.4846766 36,8.50402972 L36,38 C36,40.209139 34.209139,42 32,42 L4,42 C1.790861,42 2.705415e-16,40.209139 0,38 L0,4 C-2.705415e-16,1.790861 1.790861,4.05812251e-16 4,0 Z" id="矩形" fill="#3878FF"></path>
+            <rect id="矩形" fill="#BED8FE" x="13" y="9.00006689" width="50" height="46" rx="6"></rect>
+            <rect id="矩形" fill="url(#linearGradient-er5zzm5rqq-1)" x="13" y="9.00006689" width="50" height="46" rx="6"></rect>
+            <path d="M36,13.7161686 L36,38.7161686 C36,40.9253076 34.209139,42.7161686 32,42.7161686 L13.0830939,42.7169754 C13.0284458,42.3915127 13,42.0571626 13,41.7161686 L13,19.7161686 C13,16.4024601 15.6862915,13.7161686 19,13.7161686 L36,13.7161686 Z" id="形状结合" fill="url(#linearGradient-er5zzm5rqq-2)" filter="url(#filter-er5zzm5rqq-3)"></path>
+            <g id="形状结合" transform="translate(36.000000, 33.818294) rotate(-315.000000) translate(-36.000000, -33.818294) ">
+              <use fill="black" fill-opacity="1" filter="url(#filter-er5zzm5rqq-5)" xlink:href="#path-er5zzm5rqq-4"></use>
+              <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-er5zzm5rqq-4"></use>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
