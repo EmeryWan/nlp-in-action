@@ -1,6 +1,6 @@
-declare var IS_SUB: string;
-declare var SUB_STR: string;
+declare const IS_SUB: string | undefined;
+declare const SUB_STR: string | undefined;
 
 export function trueImgSrc(src: string) {
-  return IS_SUB ? SUB_STR + src : src;
+  return IS_SUB === 'true' ? SUB_STR + src : src;
 }

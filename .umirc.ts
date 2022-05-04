@@ -9,6 +9,10 @@ const root_base_config = {
       href: '/css/style.css',
     },
   ],
+  define: {
+    IS_SUB: 'false',
+    SUB_STR: '',
+  },
 };
 
 const sub_base_config = {
@@ -25,11 +29,10 @@ const sub_base_config = {
   define: {
     IS_SUB: 'true',
     SUB_STR: '/nlp-in-action',
-    TEST: 'test',
   },
 };
 
-const base_config = process.env.IS_SUB_PATH ? sub_base_config : root_base_config;
+const base_config = process.env.IS_SUB_PATH === 'true' ? sub_base_config : root_base_config;
 
 export default defineConfig({
   ...base_config,
@@ -41,9 +44,9 @@ export default defineConfig({
   dynamicImport: {
     loading: '@/Loading',
   },
-  ssr: {
-    devServerRender: false
-  },
+  // ssr: {
+  //   devServerRender: false
+  // },
   exportStatic: {},
   hash: true,
   extraBabelPlugins: [
