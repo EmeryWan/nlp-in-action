@@ -1,0 +1,14 @@
+/* 更改 antd 内置样式 */
+
+.ant-image-preview-mask {
+    background-color: rgba(190, 190, 190, 0.9) !important;
+}
+
+/* 去除预览图片的眼睛 */
+.ant-image-mask-info {
+    display: none !important;
+}
+
+.ant-image-mask {
+    background: none !important;
+}

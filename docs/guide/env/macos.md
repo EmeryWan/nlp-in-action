@@ -3,17 +3,21 @@ title: 🍎 macOS
 toc: content
 order: 3
 group:
-  order: 2
+  order: 3
   title: 环境配置
 ---
 
 # 🍎 在 macOS 上配置深度学习环境
+
 
 ## 💻 GPU
 
 macOS 并不支持 Nvida 显卡，本地训练请使用 CPU。
 
 🤔 Apple Silicon GPU ? 
+
+
+<div class="guide-divide"></div>
 
 ## 🐍 Python 环境
 
@@ -37,7 +41,7 @@ macOS 并不支持 Nvida 显卡，本地训练请使用 CPU。
 </Alert>
 
 
-## 🏖 Miniforge
+## Miniforge
 
 - 🌰 选择 brew 安装
 
@@ -58,7 +62,7 @@ chmod +x ./Miniforge3-{Version}-MacOSX-{Architecture}.sh
 ./Miniforge3-{Version}-MacOSX-{Architecture}.sh
 ```
 
-## 🏝 Anaconda
+## Anaconda
 
 - 🌰 选择 brew 安装
 
@@ -76,9 +80,11 @@ brew install anaconda
 - 📀 [北京外国语](https://mirrors.bfsu.edu.cn/help/anaconda/)
 
 
+<div class="guide-divide"></div>
+
 ## 💽 配置国内镜像
 
-### ⚾️ Conda
+### Conda
 
 推荐使用 💿 [阿里云](https://developer.aliyun.com/mirror/anaconda)。
 
@@ -103,7 +109,7 @@ custom_channels:
 
 配置完成后，运行 `conda clean -i` 清除索引缓存。
 
-### 🥎 Python
+### Python
 
 Python 国内镜像众多且速度良好，可以选择任一合适的镜像，以下为部分列表：
 

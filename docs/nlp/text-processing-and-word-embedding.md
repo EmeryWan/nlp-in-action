@@ -323,3 +323,10 @@ export default () => {
 最后总结一下这一章的内容。
 
 这一节上半部分，说明了文本处理是什么样的。给我们一条电影评论，首先做 `Tokenization`，把电影评论分割成很多单词，然后把很多单词编码成数字，这样一整条电影评论就可以很多正整数来表示，我们把这个正整数序列叫做 `Sequences`，就是神经网络中 `Embedding` 层的输入。由于电影评论的长短不一，得到的 `Sequence` 的长短也不一样，没办法存储在一个矩阵里，解决方案是 `Alignment` 对齐。假设最大长度为 `20`，如果长度大于`20`，就只保留最后 `20` 个单词；如果长度不到 `20`，就用 `0` 补齐，把长度增加到 `20`。这样一来，每个 `Sequences` 长度都相同。
+
+
+## ⛓ 参考
+
+- 🔗 https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_1.pdf
+- 🔗 https://www.youtube.com/watch?v=6_2_2CPB97s
+- 🔗 https://www.bilibili.com/video/BV1fp4y147Lc

@@ -411,3 +411,10 @@ $shape(h) * [shape(h) + shape(x)]$
 参数矩阵 $A$ 一开始随机初始化，然后从训练数据上学习。注意：`simple RNN` 只有一个参数矩阵，不管这个序列有多长，参数矩阵只有一个，所有模块里的参数都是一样的。
 
 `RNN` 有一个缺点，`RNN` 的记忆比较短，会遗忘很久之前的输入 $x$，如果这个时间序列很长，有好几十步，最终 `RNN` 就会忘记了之前的输入。下一节将介绍 `LSTM`，`LSTM` 的记忆会比 `simple RNN` 长很多，但是 `RNN` 也还是会有遗忘的问题。
+
+
+## ⛓ 参考
+
+- 🔗 https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_2.pdf
+- 🔗 https://www.youtube.com/watch?v=Cc4ENs6BHQw
+- 🔗 https://www.bilibili.com/video/BV1dq4y1f7ep

@@ -3,7 +3,7 @@ title: 🐧 Linux
 toc: content
 order: 2
 group:
-  order: 2
+  order: 3
   title: 环境配置
 ---
 
@@ -21,9 +21,13 @@ group:
 以下内容，都基于 <code>Ubuntu</code> 系统。
 </Alert>
 
+<div class="guide-divide"></div>
+
 ## 💻 Nvidia GPU
 
-### 🌱 驱动
+---
+
+### 驱动
 
 首先，请确保在系统中安装了英伟达显卡驱动，可以使用 `nvidia-msi` 命令查看显卡对应信息。
 
@@ -61,7 +65,7 @@ export default () => {
 
 其中，`Nouveau` 为英伟达显卡开源驱动（默认安装），选择需要的 `NVIDIA drive` 驱动选项，点击 `应用更改`，等待进度条结束后，重启电脑，即完成了显卡驱动的安装。
 
-### 🌿 CUDA
+### CUDA
 
 你可以在 [这里](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html) 看到显卡驱动版本与 CUDA 版本的对应关系。
 
@@ -130,13 +134,15 @@ export default () => {
 };
 ```
 
-配置环境变量：
+配置环境变量，在对应配置文件中添加如下内容：
 
 ```sh
-
+# bash -> .bashrc  zsh -> .zshrc
+export CUDA_HOME=/usr/local/cuda-{Version}
+export PATH=${CUDA_HOME}/bin:${PATH}
 ```
 
-### 🪴 cuDNN
+### cuDNN
 
 你可以在官网 [此链接](https://developer.nvidia.com/rdp/cudnn-download) 下载 CUDNN，需要注册开发者账号，可能还需要一个“良好的网络环境”。
 
@@ -172,7 +178,11 @@ sudo cp cudnn-linux-{Version}/include/* /usr/local/cuda/include
 cat /usr/local/cuda-10.1/include/cudnn.h | grep CUDNN_MAJOR -A 2
 ```
 
+<div class="guide-divide"></div>
+
 ## 🐍 Python 环境
+
+---
 
 <Alert type="error">
 🚧<br>
@@ -191,7 +201,7 @@ cat /usr/local/cuda-10.1/include/cudnn.h | grep CUDNN_MAJOR -A 2
 - 🌥 [Miniforge](https://conda-forge.org/)
 - ⛅️ [Mambaforge](https://github.com/conda-forge/miniforge#mambaforge)
 
-## 🏖 Miniforge
+### Miniforge
 
 在 [此链接](https://github.com/conda-forge/miniforge#miniforge3) 选择适合的版本，下载后运行以下命令，再按提示进行安装。
 
@@ -202,7 +212,7 @@ chmod +x ./Miniforge3-{Version}-MacOSX-{Architecture}.sh
 ./Miniforge3-{Version}-MacOSX-{Architecture}.sh
 ```
 
-## 🏝 Anaconda
+### Anaconda
 
 推荐在国内镜像源下载，以获得更好的网络体验。推荐选择以下等国内地址：
 
@@ -218,9 +228,13 @@ chmod +x ./Anaconda3-{Version}-Linux-{Architecture}.sh
 ./Anaconda3-{Version}-Linux-{Architecture}.sh
 ```
 
+<div class="guide-divide"></div>
+
 ## 💽 配置国内镜像
 
-### ⚾️ Conda
+---
+
+### Conda
 
 推荐使用 💿 [阿里云](https://developer.aliyun.com/mirror/anaconda)。
 
@@ -245,7 +259,7 @@ custom_channels:
 
 配置完成后，运行 `conda clean -i` 清除索引缓存。
 
-### 🥎 Python
+### Python
 
 Python 国内镜像众多且速度良好，可以选择任一合适的镜像，以下为部分列表：
 
@@ -275,6 +289,6 @@ index-url = https://repo.huaweicloud.com/repository/pypi/simple
 trusted-host = repo.huaweicloud.com
 ```
 
-## 📚 参考
+## ⛓ 参考
 
 - 🔗 https://zhuanlan.zhihu.com/p/336429888

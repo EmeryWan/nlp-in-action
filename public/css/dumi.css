@@ -1,0 +1,28 @@
+/* 更改 dumi 内置样式 */
+.__dumi-default-navbar-logo {
+    color: transparent !important;
+    background-position-x: center !important;
+    background-position-y: center !important;
+}
+
+a[title='站长统计'] {
+    display: none;
+}
+
+@media screen and (min-width: 1100px) {
+    .__dumi-default-menu+.__dumi-default-layout-content .markdown {
+        padding-right: 100px;
+        /* padding-left: 100px; */
+    }
+
+    .markdown img {
+        /* background-color: black; */
+        /* max-width: 65% !important; */
+        max-height: 550px;
+    }
+
+    .ant-img {
+        max-height: 550px;
+    }
+}
+

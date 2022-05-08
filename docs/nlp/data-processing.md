@@ -245,3 +245,10 @@ export default () => {
 部分机器学习的数据会具备类别特征 `Categorical Features`，机器学习模型无法理解，我们需要将其转换成数值特征。类别特征的类别会被映射成一个从 `1` 开始计算的整数，`0` 被用来表示缺失或者未知的类别，并且使用 `one-hot` 向量，能很好的表示类别特征的意义。
 
 文本处理主要有三个步骤，第一步 `tokenization` 把文本分割成单词的列表；第二步建立了一个字典`vocabulary`，把单词映射成一个正整数；第三步进行 `one-hot encoding`，将分割后的单词列表映射成正整数的列表或变成 `one-hot` 向量。
+
+
+## ⛓ 参考
+
+- 🔗 https://github.com/wangshusen/DeepLearning/blob/master/Slides/9_RNN_0.pdf
+- 🔗 https://www.youtube.com/watch?v=NWcShtqr8kc
+- 🔗 https://www.bilibili.com/video/BV1w54y1L7xK

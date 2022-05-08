@@ -6,7 +6,7 @@ const root_base_config = {
   links: [
     {
       rel: 'stylesheet',
-      href: '/css/style.css',
+      href: '/css/index.css',
     },
   ],
   define: {
@@ -23,7 +23,7 @@ const sub_base_config = {
   links: [
     {
       rel: 'stylesheet',
-      href: '/nlp-in-action/css/style.css',
+      href: '/nlp-in-action/css/index.css',
     },
   ],
   define: {
@@ -40,7 +40,7 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   // more config: https://d.umijs.org/config
-  navs: [null, { title: 'Github', path: 'https://github.com/emerywan/nlp-in-ation' }],
+  navs: [null, { title: 'Github', path: 'https://github.com/emerywan/nlp-in-action' }],
   dynamicImport: {
     loading: '@/Loading',
   },
