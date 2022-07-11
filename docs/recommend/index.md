@@ -21,7 +21,3 @@ export default () => (
     </div>
 );
 ```
-
-https://www.paddlepaddle.org.cn/tutorials/projectdetail/3518060#anchor-10
-
-http://www.huaxiaozhuan.com/
