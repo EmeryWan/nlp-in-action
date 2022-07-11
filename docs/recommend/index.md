@@ -7,4 +7,21 @@ nav:
   order: 4
 ---
 
-<img src="/img/nlp/banner.png" alt="table" style="display: block; margin: 0 auto; max-height: 280px;">
+```jsx
+/**
+ * inline: true
+ */
+import React from 'react';
+import { Image } from 'antd';
+import { trueImgSrc } from 'nlp-in-action/utils';
+
+export default () => (
+    <div className="post-top-icon">
+      <Image src={trueImgSrc('/img/banner.png')} preview={false}/>
+    </div>
+);
+```
+
+https://www.paddlepaddle.org.cn/tutorials/projectdetail/3518060#anchor-10
+
+http://www.huaxiaozhuan.com/
