@@ -12,9 +12,7 @@ group:
 
 ## 💻 GPU
 
-macOS 并不支持 Nvida 显卡，本地训练请使用 CPU。
-
-🤔 Apple Silicon GPU ? 
+[Pytorch](https://pytorch.org/blog/introducing-accelerated-pytorch-training-on-mac/) & [TensorFlow](https://developer.apple.com/metal/tensorflow-plugin/) 现已支持 Apple Silicon。
 
 
 <div class="guide-divide"></div>

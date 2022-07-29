@@ -31,7 +31,7 @@ footer: <div class="nlp-footer">Powered by <a href="https://d.umijs.org" target=
 
 ---
 
-**正在完善中**
+**正在完善中** 🤗
 
 ## 📖 内容来源
 

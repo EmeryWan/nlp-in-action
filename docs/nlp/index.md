@@ -37,17 +37,11 @@ export default () => {
 
 这里的前半部分内容主要来自 [@wangshusen](https://github.com/wangshusen) 老师在网络中发布的 `RNN和NLP` 的课程内容。应该是老师之前任教时 [Deep Learning](https://github.com/wangshusen/DeepLearning) 课程的一部分。
 
-[王树森](https://github.com/wangshusen) 老师在网络上也发布过许多其他课程。可以点击 [bilibili](https://space.bilibili.com/1369507485/favlist?fid=1244871485&ftype=create) [youtube](https://www.youtube.com/playlist?list=PLvOO0btloRnuTUGN4XqO85eKPeFSZsEqK) 了解更多。
-
-此课程是我在学习 `NLP` 过程中，可以说是我看过的 **最好 👍** 的教程，让我醍醐灌顶。
-
-其中原教程实现部分，这里会使用 `PyTorch` 进行实现。
+[王树森](https://github.com/wangshusen) 老师在网络上也发布过许多其他课程。可以点击 [bilibili](https://space.bilibili.com/1369507485/favlist?fid=1244871485&ftype=create) [youtube](https://www.youtube.com/playlist?list=PLvOO0btloRnuTUGN4XqO85eKPeFSZsEqK) 了解更多。该内容让我在学习过程中醍醐灌顶 👍。
 
 ### 🫣
 
-这里的后半部分内容主要是介绍一些 `NLP` 中的常见任务和前半部分未介绍的内容。
-
-以覆盖 `NLP` 核心内容。
+这里的后半部分内容主要是介绍一些 `NLP` 中的常见任务和前半部分未介绍的内容。以覆盖 `NLP` 常见内容。
 
 ### 🤗
 
