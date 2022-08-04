@@ -24,7 +24,7 @@ features:
   - icon: https://nlp.letout.cn/img/icon/9.png
     title: 内容推荐
     desc:
-footer: <div class="nlp-footer">Powered by <a href="https://d.umijs.org" target="_black"><img src="https://nlp.letout.cn/img/dumi.png"/> dumi </a>    <br/>     本网站由 <span class="youpai"><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_black"><img src="https://nlp.letout.cn/img/youpai.svg"/> 又拍云 </a> 提供 CDN 加速</span>    <br/>    <span>Copyright © 2022</span> </div>
+footer: <div class="nlp-footer">Powered by <a href="https://d.umijs.org" target="_black"><img src="https://nlp.letout.cn/img/dumi.png"/> dumi </a>    <br/>     本网站由 <span class="youpai"><a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_black"><img src="https://nlp.letout.cn/img/youpai.svg"/> 又拍云 </a> 提供 CDN 加速</span>    <br/>    <span>Copyright © 2022</span> | <span><a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">赣ICP备19004365号-3</a></span> </div>
 ---
 
 ## 🚆 入门自然语言处理
